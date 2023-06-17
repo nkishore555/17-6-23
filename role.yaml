@@ -1,0 +1,6 @@
+---
+- name: creating game of life using roles
+  hosts: all
+  become: true
+  roles:
+    - role: gameoflife
